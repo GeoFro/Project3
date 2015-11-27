@@ -41,7 +41,7 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
   # Database required for use with Heroku
-  gem 'pg',             '0.17.1'
+  gem 'pg',             '0.18.2'
   # Used for static assets like images and stylesheets
   gem 'rails_12factor', '0.0.2'
 end
