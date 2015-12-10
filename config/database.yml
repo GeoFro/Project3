@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: Project1_development
+  database: Project3_development
   pool: 5
   username: postgres
   password: password
@@ -9,7 +9,7 @@ development:
 test: &TEST
   adapter: postgresql
   encoding: utf8
-  database: Project1_test
+  database: Project3_test
   pool: 5
   username: postgres
   password: password
@@ -17,7 +17,7 @@ test: &TEST
 production:
   adapter: postgresql
   encoding: utf8
-  database: Project1_production
+  database: Project3_production
   pool: 5
   username: postgres
   password: password
