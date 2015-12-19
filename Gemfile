@@ -33,8 +33,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Database required for use with Heroku
+gem 'pg',             '0.18.2'
+
 group :development, :test do
-  gem 'pg',             '0.18.2'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
     # Access an IRB console on exception pages or by using <%= console %> in views
@@ -49,8 +51,6 @@ group :test do
 end
 
 group :production do
-  # Database required for use with Heroku
-  gem 'pg',             '0.18.2'
   # Used for static assets like images and stylesheets
   gem 'rails_12factor', '0.0.2'
 end
