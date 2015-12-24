@@ -53,6 +53,7 @@ end
 group :production do
   # Used for static assets like images and stylesheets
   gem 'rails_12factor', '0.0.2'
+  gem 'puma',           '2.15.3'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
